@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "自动刷新页面",
+  "version": "1.0",
+  "description": "允许用户设置自动刷新页面的时间间隔",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
